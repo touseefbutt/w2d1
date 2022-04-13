@@ -114,12 +114,12 @@ function add() {
 // When we pass a function as an argument inside a function call, we call the function being passed CALLBACKS or higher order functions.
 
 // Example:
-const colorArr = ['red', 'blue', 'green']
+// const colorArr = ['red', 'blue', 'green']
 
-colorArr.forEach(function(color) {
-    console.log(color)
-    console.log(typeof(color))
-})
+// colorArr.forEach(function(color) {
+//     console.log(color)
+//     console.log(typeof(color))
+// })
 
 // ES6 Syntax
 // colorArr.forEach(() => console.log(color))
